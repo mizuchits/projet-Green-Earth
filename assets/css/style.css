@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "DMsans Medium";
+    src: url(../fonts/static/DMSans-Medium.ttf);
+}
+
+body {
+    font-family: "DMsans Medium";
+    background-color: #FBF3E7;
+    margin: 0;
+}
+
+.black {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+header img {
+    height: 100px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cecece;
+}
+
+.header-nav {
+    border-bottom: 1px solid #cecece;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header-logo .btn {
+    background: linear-gradient(90deg, #0A513A, #749A2B);
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #054D3B;
+    margin: 0;
+    padding: 20px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer>* {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-green {
+    background-color: #054D3B;
+    padding: 15px;
+    border-radius: 12px;
+    color: white;
+}
+
+/* MAIN ACCEUIL */
+
+.title {
+    margin-top: 50px;
+    display: flex;
+}
+
+.title img {
+    height: 300px;
+    border-radius: 2em 0 0 0;
+    box-shadow: 5px 5px 0px #0A513A;
+}
+
+.project {
+    margin-top: 100px;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+}
+
+.project-card h3 {
+    border-bottom: 1px solid #cecece;
+}
+
+.mission {
+    background-image: url(../img/farmer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    margin-top: 100px;
+}
+
+.mission-container {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+}
+
+.mission-container img {
+    height: 280px;
+}
+
+.mission-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.mission-list li {
+    list-style-type: circle;
+}
+
+.actu-flex {
+    display: flex;
+}
+
+.actu {
+    margin-top: 100px;
+}
