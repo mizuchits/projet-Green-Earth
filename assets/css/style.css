@@ -21,6 +21,11 @@ li {
     list-style-type: none;
 }
 
+.orange-a {
+    text-decoration: underline;
+    color: orange;
+}
+
 .container {
     width: 100%;
     max-width: 1080px;
@@ -156,10 +161,72 @@ footer a {
     list-style-type: circle;
 }
 
+.mission-list li::marker {
+    color: #003b14;
+}
+
 .actu-flex {
     display: flex;
+    gap: 15px;
 }
 
 .actu {
     margin-top: 100px;
+}
+
+.actu-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.actu-card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.actu-tier {
+    margin-top: 20px;
+}
+
+.actu-tier .actu-card {
+    width: 400px;
+}
+
+.actu li {
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.actu-doctype {
+    display: flex;
+    gap: 20px;
+}
+
+.actu-main img {
+    max-height: 305px;
+    width: 530px;
+    border-radius: 12px;
+}
+
+.actu .btn-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    grid-template-rows: repeat(3, 200px);
+}
+
+.gallery-grid img {
+    object-fit: cover;
 }
