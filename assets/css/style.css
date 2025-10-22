@@ -223,7 +223,7 @@ footer a {
     width: 33%;
 }
 
-.actu li {
+.actu-card li {
     border: 1px solid rgb(160, 160, 160);
     border-radius: 20px;
     padding: 5px;
@@ -481,5 +481,36 @@ footer a {
     text-align: center;
     background-color: orange;
     padding: 10px 50px;
+    color: white;
+}
+
+/* Article */
+
+.article-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.newsletter {
+    margin: 100px 0;
+}
+
+.newsletter .container {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter input {
+    border: 1px solid transparent;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.newsletter .btn {
+    background-color: #054D3B;
     color: white;
 }
