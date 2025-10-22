@@ -21,6 +21,11 @@ li {
     list-style-type: none;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .orange-a {
     text-decoration: underline;
     color: orange;
@@ -96,7 +101,16 @@ footer a {
 
 .footer-container {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-container h2 {
+    text-decoration: underline;
+}
+
+.footer-container div {
+    width: 20%;
 }
 
 .btn-green {
@@ -419,4 +433,53 @@ footer a {
 .contribution .btn-condition {
     color: #c9c9c9;
     text-decoration: underline;
+}
+
+.paiment {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.paiment input {
+    border: 1px solid transparent;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.paiment-form {
+    display: inline-block;
+    padding: 25px;
+    background-color: white;
+    max-width: 40%;
+}
+
+.paiment-container {
+    display: flex;
+    gap: 20px;
+}
+
+.paiment label {
+    text-align: start;
+}
+
+.paiment-id {
+    width: 100%;
+}
+
+.paiment-short {
+    width: 20%;
+}
+
+.paiment-card_code {
+    width: 60%;
+}
+
+.paiment .btn {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: orange;
+    padding: 10px 50px;
+    color: white;
 }
