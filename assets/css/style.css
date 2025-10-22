@@ -106,6 +106,14 @@ footer a {
     color: white;
 }
 
+.banner {
+    background: linear-gradient(90deg, #0A513A, #749A2B);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
 /* MAIN ACCEUIL */
 
 .title {
@@ -310,4 +318,105 @@ footer a {
 
 .support-content img {
     width: 20%;
+}
+
+/* Contact */
+
+.contact {
+    margin: 100px 0;
+}
+
+.contact .container {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-content,
+.contact-form {
+    width: 50%;
+}
+
+.contact-form form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid transparent;
+    background-color: rgb(236, 236, 236);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.contact-form .btn {
+    background-color: #003b14;
+    color: white;
+    text-align: start;
+}
+
+.agissez {
+    background-color: #054D3B;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 1px;
+    line-height: 50px;
+}
+
+.agissez .btn-first {
+    background: linear-gradient(90deg, #0A513A, #749A2B);
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.agissez .btn-second {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+/* donate */
+
+.contribution {
+    margin: 100px 0;
+}
+
+.contribution .container {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    gap: 20px;
+}
+
+.contribution img {
+    height: 400px;
+    width: 100%;
+    border-radius: 2em 0 0 0;
+    box-shadow: 5px 5px 0px #0A513A;
+    object-fit: cover;
+}
+
+.contribution .btn-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contribution .btn {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.contribution .btn-condition {
+    color: #c9c9c9;
+    text-decoration: underline;
 }
